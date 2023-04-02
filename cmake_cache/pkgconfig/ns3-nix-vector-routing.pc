@@ -1,0 +1,13 @@
+exec_prefix="/Users/aimanmeenai/Desktop/CN_project/project/trial3/bake/build/bin"
+libdir="/Users/aimanmeenai/Desktop/CN_project/project/trial3/bake/build/lib"
+includedir="/Users/aimanmeenai/Desktop/CN_project/project/trial3/bake/build/include"
+
+Name: ns3-nix-vector-routing
+Description: 
+URL: 
+Version: 3.38
+Requires:  ns3-internet
+Requires.private: 
+Cflags: -I"${includedir}" -I/Library/Frameworks/Mono.framework/Headers -I/Library/Frameworks/Mono.framework; -I/opt/homebrew/include/freetype2 -I/opt/homebrew/include/glib-2.0 -I/opt/local/lib/glib-2.0/include -I/opt/homebrew/include/gdk-pixbuf-2.0 -I/opt/homebrew/include/gtk-3.0 -I/opt/homebrew/include/cairo -I/opt/homebrew/include/pango-1.0 -I/opt/homebrew/include/harfbuzz -I/opt/homebrew/include/atk-1.0 -I/opt/homebrew/Cellar/harfbuzz/7.1.0/include/harfbuzz -I/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include/libxml2
+Libs: -L"${libdir}" -lns3.38-nix-vector-routing-debug  -lns3.38-internet-debug
+Libs.private: -L"${libdir}" 
